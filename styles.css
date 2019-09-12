@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background: #888888;
-    color: aliceblue;
+    color: black;
+    
     /*background: linear-gradient(to left, #8E0E00, #1F1C18);*/
 }
 
@@ -9,9 +9,23 @@ body{
     height: 540px;
     width:  400px;
     margin: 100px auto;
-    background-color: black;
+    background-color: rgb(170, 216, 219);
     border-radius: 20px;
+    
     /*-webkit-border-radius: 20px;
     -moz-border-radius: 20px; */
   
+}
+
+h1{
+    padding-top: 10px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px; 
+    height: 55px;
+    background-color: rgb(14, 13, 13);
+    color: whitesmoke;
+}
+p {
+    padding-left: 25px;
 }
