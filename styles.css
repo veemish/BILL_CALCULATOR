@@ -1,116 +1,112 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(221, 237, 250);
-    color: black;
-    
-    /*background: linear-gradient(to left, #8E0E00, #1F1C18);*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(221, 237, 250);
+  color: black;
+
+  /*background: linear-gradient(to left, #8E0E00, #1F1C18);*/
 }
 
-.container{
-    height: 595px;
-    width:  400px;
-    margin: 100px auto;
-    background-color: rgb(170, 216, 219);
-    border-radius: 20px;
-    
-    /*-webkit-border-radius: 20px;
+.container {
+  height: 595px;
+  width: 400px;
+  margin: 100px auto;
+  background-color: rgb(170, 216, 219);
+  border-radius: 20px;
+
+  /*-webkit-border-radius: 20px;
     -moz-border-radius: 20px; */
-  
 }
 
-h1{
-    padding-top: 10px;
-    text-align: center;
-    border-top-right-radius: 20px;
-    border-top-left-radius:20px; 
-    height: 55px;
-    background-color: rgb(14, 13, 13);
-    color: whitesmoke;
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 55px;
+  background-color: rgb(14, 13, 13);
+  color: whitesmoke;
 }
 p {
-    padding-left: 25px;
+  padding-left: 25px;
 }
 
-.rad{
-    margin-left: 20px;
+.rad {
+  margin-left: 20px;
 }
 
 form input[type="number"] {
-    width:120px;
-    height: 20px;
-  }
+  width: 120px;
+  height: 20px;
+}
 
-  input {
-    padding-left: 20px;
-  }
-  h3 ,h4 {
-      padding-left: 10px
-  }
- 
-  #billing{
-    font-size: 14px;
-    /*color: #2980b9;*/
-    color: goldenrod;
-    background-color: #f7f7f7;
-    width: 60%;
-    padding: 5px 5px 8px 8px;
+input {
+  padding-left: 20px;
+}
+h3,
+h4 {
+  padding-left: 10px;
+}
 
-  }
+#billing {
+  font-size: 14px;
+  /*color: #2980b9;*/
+  color: maroon;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
 
-  #billing:focus{
-    background: #fff;
-    border: 1px solid rgb(189, 233, 236);
-    outline: none;
-    box-shadow: rgb(177, 177, 177) 1px 2px 2px;
-  }
+#billing:focus {
+  background: #fff;
+  border: 1px solid rgb(189, 233, 236);
+  outline: none;
+  box-shadow: rgb(177, 177, 177) 1px 2px 2px;
+}
 
-  #peoplemt {
-    width: 35%;
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-    color: goldenrod;
-    background-color: #f7f7f7;
-    font-size: 14px;
-  }
+#peoplemt {
+  width: 35%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: maroon;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
 
-  #peoplemt:focus{
-      padding: 5px 5px 8px 8px;
-      margin-left: 15px;
-      color: goldenrod;
-      background-color: #f7f7f7;
-      border: 1px solid rgb(189, 233, 236);
-      outline: none;
-  }
+#peoplemt:focus {
+  padding: 5px 5px 8px 8px;
+  margin-left: 15px;
+  color: maroon;
+  background-color: #f7f7f7;
+  border: 1px solid rgb(189, 233, 236);
+  outline: none;
+}
 
-  p input[type="number"] {
-    width:90px;
-    height: 10px;
-  }
-
-  
+p input[type="number"] {
+  width: 90px;
+  height: 10px;
+}
 
 button {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
   margin: 30px auto;
-  background:  rgb(6, 104, 143);
+  background: rgb(6, 104, 143);
   border-radius: 10px;
   width: 200px;
   height: 50px;
   font-size: 17px;
   color: white;
   border: 2px white solid;
-  box-shadow:  rgb(177, 177, 177) 2px 3px 3px;
-} 
+  box-shadow: rgb(177, 177, 177) 2px 3px 3px;
+}
 
-button:hover{
-  background-color:black;
+button:hover {
+  background-color: black;
   color: white;
   border: 2px black solid;
-
 }
-button:active{
+button:active {
   position: relative;
   top: 1px;
 }
